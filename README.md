@@ -1,6 +1,6 @@
 # Desafio "#30Days30Sites"
 
-Decidi aprender um pouco mais sobre desenvolvimento Front-End. Então entrei no desafio. Mais informações sobre ele [aqui](http://www.codelegy.com/30days30sites/).
+Decidi aprender um pouco mais sobre desenvolvimento Front-End. Então, entrei no desafio. Mais informações sobre ele [aqui](http://www.codelegy.com/30days30sites/).
 
 ## Histórico:
 

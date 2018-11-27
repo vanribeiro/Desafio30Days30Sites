@@ -1,0 +1,63 @@
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+nav{
+    z-index: 1;
+}
+
+nav li:hover{
+    color: #fafafa;
+    text-decoration: overline;
+}
+
+.myname, .myjobs, .mybio, .mycontacts{
+    width: 100vw;
+    height: 100vh;
+}
+
+.myname{
+    text-align: center;
+    background-image: url("img-background/butterfly-cover.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.myname h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: #fafafa;
+}
+
+.myjobs{
+    
+}
+
+.text-bio{
+    padding-top: 50px;
+}
+
+.mycontacts{
+
+}
+
+@media (min-width: 576px) { 
+    
+
+}
+
+@media (min-width: 768px) { 
+
+}
+
+@media (min-width: 992px) { 
+    
+}
+
+@media (max-width: 1200px) {
+
+}

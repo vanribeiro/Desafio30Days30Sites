@@ -1,44 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Anton");
+/* General CSS */
+
 html{
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
 
-nav{
-    z-index: 1;
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #eeeff0;
 }
 
-nav li:hover{
-    color: #fafafa;
+.container{
+    margin: auto;
+    width: 950px;
+}
+
+.menu-top{
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+}
+
+.menu-top ul{
+    text-align: center;
+}
+
+.menu-top a{
+    color: #252525;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+}
+
+.menu-top a:hover{
     text-decoration: overline;
 }
 
 .myname, .myjobs, .mybio, .mycontacts{
     width: 100vw;
     height: 100vh;
+    padding-top: 60px;
 }
 
 .myname{
     text-align: center;
-    background-image: url("img-background/butterfly-cover.jpg");
+    background-image: url("https://i.postimg.cc/VL08xYPS/pexels-photo-880871.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .myname h1{
+    color: #1a1a1a;
+    padding: 5px 30px 5px 30px;
+    background-color: #f5f5f5b0;
+    font-family: 'Anton', sans-serif;
+    font-size: 5em;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    color: #fafafa;
+    mix-blend-mode: lighten;
+}
+
+.img-fluid{
+    padding-top: 15px;
+    max-width: 100%;
+}
+
+.col-left{
+    width: 460px;
+    float: left;
+}
+
+.col-right{
+    width: 460px;
+    float: right;
+}
+
+.mybio{
+    color: #f8fafb;
 }
 
 .myjobs{
-    
-}
-
-.text-bio{
-    padding-top: 50px;
+    display: inline;
 }
 
 .mycontacts{

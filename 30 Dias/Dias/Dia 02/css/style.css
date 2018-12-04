@@ -7,7 +7,7 @@ html{
 body{
     padding: 0;
     margin: 0;
-    font-family: monospace, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     color: #581D22;
 }
 
@@ -19,23 +19,263 @@ a{
     max-width: 100%;
 }
 
+.cover-page .banner-desktop, .couple .img-banner-title, 
+.details-wedding .img-banner-title, 
+.gifts.img-banner-title, .form-rsvp .img-banner-title{
+    margin: auto;
+}
+
+.buffet-img, .her img, .his img, .gifts .shop1 img, .gifts .shop2 img{
+    box-shadow: 7px 7px 20px #333;
+}
+
+.g-maps{
+    padding: 10px;
+    background-color: #581D22;
+}
+
+.g-maps a{
+    color: #ffd5d5;
+}
+
+.title-on-image-gift, .title-on-image-details{
+    display: inline-block;
+    position: relative;
+}
+
+.title-on-image-gift figcaption, .title-on-image-details figcaption{
+    position: absolute;
+    top: 0px;
+    width: 335px;
+    height: 335px;
+    background-color: #0f0f0f96;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-on-image-gift h1, .title-on-image-details h1{
+    color: #ffd5d5;
+    border-top: #ffd5d5 2px dashed;
+    border-bottom: #ffd5d5 2px dashed;
+}
+
+.form-rsvp form{
+    text-align: left;
+    max-width: 95%;
+}
+
+.form-rsvp select{
+    height: 25px;
+    width: 80px;
+    font-size: 15px;
+}
+
+.form-couple .input-text, .form-couple textarea{
+    width: 100%;
+    padding: 10px 5px 10px 5px;
+    background-color: #ffd5d5;
+    font-family: 'Courier New', Courier, monospace;
+    color: #581D22;
+}
+
+.form-couple .input-text{
+    border: none;
+    border-bottom: #581d22c0 2px solid;
+}
+
+.form-couple textarea{
+    border: #581d22c0 2px solid;
+}
+
+.form-buttons{
+    width: 100%;
+    height: 25px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.form-buttons input{
+    padding: 15px;
+    background-color: #581D22;
+    color: #ffd5d5;
+    border:  #581D22 1px solid;
+}
+
+.links-bottom{
+    text-align: center;
+    padding: 15px;
+}
+
+.links-bottom a{
+    padding: 15px 10px 10px 10px;
+}
+
+.links-bottom a:hover{
+    border-bottom: #581D22 2px dashed;
+}
+
+footer{
+    height: 30px;
+    display: block;
+    text-align: center;
+}
+
+footer .container{
+    border-top: #581D22 2px dashed;
+}
+
+footer .copyright{
+    padding: 15px;
+}
+
+@media (min-width: 360px) and (max-width: 575px){
+    .cover-page, .couple, .details-wedding, .gifts{
+        width: 100%;
+    }
+
+    .container{
+        width: 320px;
+        margin: auto;
+        padding-top: 50px;
+    }
+
+    .banner-desktop, .hover-the-mouse, .ring-menu, .img-banner-title, .google-maps{
+        display: none;
+    }
+
+    .cover-page, .couple, .details-wedding, .gifts, .form-rsvp{
+        text-align: center;
+    }
+
+    .title-on-image-gift figcaption{
+        width: 240px;
+        height: 240px;
+    }
+
+    .title-on-image-details figcaption{
+        width: 100%;
+        height: 100%;
+    }
+}
+
 
 @media (min-width: 576px) {
+
+    .cover-page, .couple, .details-wedding, .gifts{
+        width: 100%;
+    }
+
+    .container{
+        width: 400px;
+        margin: auto;
+        padding-top: 50px;
+    }
+
+    .banner-desktop, .hover-the-mouse, .g-maps, .ring-menu, .img-banner-title{
+        display: none;
+    }
+
+    .cover-page, .couple, .details-wedding, .gifts, .form-rsvp{
+        text-align: center;
+    }
+
+    .title-on-image-gift figcaption{
+        width: 320px;
+        height: 320px;
+    }
+
+    .title-on-image-details figcaption{
+        width: 100%;
+        height: 100%;
+    }
 
 }
 
 
 @media (min-width: 768px) {
+    .cover-page, .couple, .details-wedding, .gifts{
+        width: 100%;
+    }
+
+    .container{
+        width: 700px;
+        margin: auto;
+        padding-top: 50px;
+    }
+
+    .banner-desktop, .hover-the-mouse, .ring-menu, .title-couple, .img-couple-banner{
+        display: none;
+    }
+
+    .cover-page, .couple, .details-wedding, .gifts, .form-rsvp{
+        text-align: center;
+    }
+
+    .title-on-image-gift figcaption{
+        width: 350px;
+        height: 350px;
+    }
+
+    .title-on-image-details figcaption{
+        width: 100%;
+        height: 100%;
+    }
 
 }
 
 @media (min-width: 992px) {
 
+    .cover-page, .couple, .details-wedding, .gifts{
+        width: 100%;
+        text-align: center;
+    }
+
+    .container{
+        width: 900px;
+        margin: auto;
+        padding-top: 50px;
+    }
+
+    .banner-mobile, .hover-the-mouse, .ring-menu, .title-couple{
+        display: none;
+    }
+
+    .img-banner-title, .banner-desktop{
+        display: block;
+    }
+
+    .cover-page, .couple, .details-wedding, .gifts, .form-rsvp{
+        text-align: center;
+    }
+
+    .columns-couple{
+        display: flex;
+        justify-content: center;
+        margin: 2%;
+    }
+
+    .her, .his{
+        width: 350px;
+        margin: 3%;
+    }
+
+    .title-on-image-gift figcaption{
+        width: 350px;
+        height: 350px;
+    }
+
+    .title-on-image-details figcaption{
+        width: 100%;
+        height: 100%;
+    }
+
 }
 
 @media (min-width: 1200px) {
 
-    .cover-page, .couple, .details-wedding, .gifts, .form-agree{
+    .cover-page, .couple, .details-wedding, .gifts{
         height: 100vh;
         width: 100vw;
     }
@@ -46,6 +286,10 @@ a{
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%);
+    }
+
+    .ring-menu{
+        display: block;
     }
 
     nav{
@@ -80,17 +324,13 @@ a{
         font-weight: bolder;
     }
 
-    .couple{
-        text-align: center;
-    }
-
     .title-couple{
         display: none;
     }
 
     .img-banner-title{
         padding-top: 15px;
-        padding-bottom: 20px;
+        padding-bottom: 35px;
     }
 
     .her, .his{
@@ -163,15 +403,38 @@ a{
         max-width: 100%;;
     }
 
-    .img-flag-local{
+    .icon-flag-local, .icon-more-details{
         width: 24px;
         height: 24px;
         padding-right: 5px;
         vertical-align: middle;
     }
 
-    .more-details{
-        text-align: left;
+    .more-details h3, .gifts{
+        text-align: center;
+    }
+
+    .title-on-image-gift figcaption{
+        width: 100%;
+        height: 100%;
+    }
+
+    .form-rsvp{
+        text-align: center;
+    }
+
+    .form-couple{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .title-on-image-details figcaption{
+        height: 180px;
+        width: 320px;
+    }
+
+    footer p{
+        line-height: 1px;
     }
 
 }

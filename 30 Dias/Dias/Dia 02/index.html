@@ -10,7 +10,10 @@
 </head>
 <body>
     <div id="home" class="cover-page">
-        <img class="img-fluid" src="img/wallpaper/home-cover-desktop.png" alt="Casamento">
+        <img class="img-fluid banner-desktop" src="img/wallpaper/home-cover-desktop.png" alt="Casamento Clara e Leonardo">
+        <div class="container">
+            <img class="img-fluid banner-mobile" src="img/wallpaper/home-cover-mobile.png" alt="Casamento Clara e Leonardo">
+        </div>
         <nav>
             <a class="nav-link" href="#the-couple">O Casal</a>
             <a class="nav-link" href="#details">Detalhes do Casamento</a>
@@ -20,8 +23,7 @@
     </div>
     <div id="the-couple" class="couple">
         <div class="container">
-            <h1 class="title-couple">Clara e Leonardo</h1>
-            <img class="img-banner-title" src="img/banners-title/clara-e-leonardo.png" alt="Clara e Leonardo">
+            <img class="img-banner-title img-couple-banner" src="img/banners-title/clara-e-leonardo.png" alt="Clara e Leonardo">
             <div class="columns-couple">
                 <div class="her">
                     <div class="text-bio">
@@ -65,22 +67,36 @@
             <h1 class="title-couple">Detalhes do Casamento</h1>
             <img class="img-banner-title" src="img/banners-title/detalhes-do-casamento.png" alt="Detalhes do Casamento">
             <div class="columns-couple">
-                <div class="local">
-                    <h3><img class="img-flag-local" src="img/icons/flag-local.png" alt="Como chegar no Casamento. Mapa Google Maps">Como chegar</h3>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.8371826672414!2d-45.56011698539732!3d-23.029749648059234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ccf904aab3fb6d%3A0x9f3afd98e8e6bf70!2sR.+Dr.+Pedro+Costa+-+Centro%2C+Taubat%C3%A9+-+SP%2C+12010-160!5e0!3m2!1spt-PT!2sbr!4v1543758529325" width="380" height="380" frameborder="" style="border:5px #ffffff solid; box-shadow: 7px 7px 20px #333;" allowfullscreen></iframe>
+                <div class="more-details">
+                    <h3><img class="icon-more-details" src="img/icons/icon.png" alt="Mais detalhes do Casamento"> Mais Detalhes</h3>
+                    <p> 25 de junho de 2019</p>
+                    <h4>Cerimônia e Recepção</h4>
+                    <a href="#">
+                        <figure class="title-on-image-details">
+                            <img class="img-fluid buffet-img" src="img/others-imgs/Buffet Elegancy.jpeg" alt="Nome do Buffet: Buffet Elegancy">
+                            <figcaption class="bold"><h1>Buffet Elegancy</h1></figcaption>
+                        </figure>
+                    </a>
+                    <p><span class="bold">Endereço:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
                 </div>
                 <div class="ring-menu">
                     <a href="#the-couple">
-                        <img class="arrows" src="img/arrows/the-couple-top.png" alt="Inicio">
+                        <img class="arrows" src="img/arrows/the-couple-top.png" alt="O Casal">
                     </a>
                     <img class="img-fluid ring" src="img/icons/ring.png" alt="Aliança">
                     <a href="#gift-list">
-                        <img class="arrows" src="img/arrows/gift-list-down.png" alt="Detalhes do Casamento">
+                        <img class="arrows" src="img/arrows/gift-list-down.png" alt="Lista de Presente">
                     </a>
                 </div>
-                <div class="more-details">
-                    <h3>Cerimonia</h3>
-                    <p> <span class="bold">Data:</span> 25/06/2019</p> 
+                <div class="local">
+                    <h3><img class="icon-flag-local" src="img/icons/flag-local.png" alt="Como chegar no Casamento. Mapa Google Maps">Como chegar</h3>
+                    <div class="google-maps">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.8371826672414!2d-45.56011698539732!3d-23.029749648059234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ccf904aab3fb6d%3A0x9f3afd98e8e6bf70!2sR.+Dr.+Pedro+Costa+-+Centro%2C+Taubat%C3%A9+-+SP%2C+12010-160!5e0!3m2!1spt-PT!2sbr!4v1543758529325" width="380" height="380" frameborder="" style="border:5px #ffffff solid; box-shadow: 7px 7px 20px #333;" allowfullscreen></iframe>
+                    </div>
+                    <class class="g-maps">
+                        <a href="https://goo.gl/maps/3b3jaRTM4MH2" target="_blank" rel="noopener noreferrer">Localização no Google Maps</a>
+                    </class>
+                    
                 </div>
             </div>
         </div>
@@ -90,18 +106,99 @@
         <div class="container">
             <h1 class="title-couple">Lista de Presentes</h1>
             <img class="img-banner-title" src="img/banners-title/lista-de-presente.png" alt="Lista de Presentes">
+            <div class="columns-couple">
+                <div class="shop1">
+                    <a href="#">
+                        <figure class="title-on-image-gift">
+                            <img class="img-fluid" src="img/others-imgs/móveis.jpeg" alt="Lista para Móveis" title="Lista para Móveis">
+                            <figcaption><h1>Móveis</h1></figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div class="ring-menu">
+                    <a href="#details">
+                        <img class="arrows" src="img/arrows/details-top.png" alt="Detalhes dos Casamento">
+                    </a>
+                    <img class="img-fluid ring" src="img/icons/ring.png" alt="Aliança">
+                    <a href="#rsvp">
+                        <img class="arrows" src="img/arrows/rsvp-down.png" alt="RSVP">
+                    </a>
+                </div>
+                <div class="shop2">
+                    <a href="#">
+                        <figure class="title-on-image-gift">
+                            <img class="img-fluid" src="img/others-imgs/eletrônicos.jpeg" alt="Lista para Eletrônicos" title="Lista para Eletrônicos">
+                            <figcaption><h1>Eletrônicos</h1></figcaption>
+                        </figure>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 
-    <div id="rsvp" class="form-agree">
+    <div id="rsvp" class="form-rsvp">
         <div class="container">
             <h1 class="title-couple">
                 RSVP
                 <small>Confirme sua presença!</small>
             </h1>
             <img class="img-banner-title" src="img/banners-title/rsvp.png" alt="RSVP">
+            <form class="form-agreement">
+                <h3>Confirme sua presença:</h3>
+                <div class="form-couple">
+                    <label class="bold" for="nome">Nome:* </label>
+                    <input class="input-text" id="nome" type="text" placeholder="Digite seu nome...">
+                </div>
+                <div class="form-couple">
+                    <label class="bold" for="email">E-mail:*</label>
+                    <input class="input-text" id="email" type="email" placeholder="Exemplo: meunome@exemplo.com.br">
+                </div>
+                <div class="form-couple">
+                    <label class="bold" for="confirmar">Você vai vir?* </label>
+                    <input type="radio" id="confirmar" name="agree-button-presence" value="yes"> Sim
+                    <input type="radio" id="confirmar" name="agree-button-presence" value="no"> Não
+                </div>
+                <div class="form-couple">
+                    <label class="bold" for="quantidade-de-acompanhantes">Quantos acompanhantes você vai levar?*</label>
+                    <select name="companions" id="quantidade-de-acompanhantes">
+                        <option value="0">00</option>
+                        <option value="1">01</option>
+                        <option value="2">02</option>
+                        <option value="3">03</option>
+                        <option value="4">04</option>
+                        <option value="5">05</option>
+                        <option value="6">06</option>
+                        <option value="7">07</option>
+                        <option value="8">08</option>
+                        <option value="9">09</option>
+                        <option value="10">10</option>
+                    </select> pessoa(s).
+                </div>
+                <div class="form-couple">
+                    <label class="bold" for="nome-dos-acompanhantes">Nomes dos acompanhantes:*</label>
+                    <textarea name="nomes-acompanhantes" id="nome-dos-acompanhantes" cols="30" rows="5" placeholder="Digite o nome dos acompanhantes..."></textarea>
+                </div>
+                <div class="form-buttons">
+                    <input class="bold" type="reset" value="Limpar">
+                    <input class="bold" type="submit" value="Enviar">
+                </div>
+                <div class="links-bottom">
+                    <a href="#gift-list">
+                        <img src="img/arrows/details-top.png" alt="Voltar aos detalhes do casamento">
+                    </a>
+                    <a href="#home">
+                        <img src="img/arrows/top.png" alt="Voltar ao Topo">
+                    </a>
+                </div>
+            </form>
         </div>
     </div>
+    <footer>
+        <div class="container copyright">
+            <p><span class="bold">Desenvolvido por:</span> Van Ribeiro</p>
+            <p>© Copyright 2018. Todos os direitos reservado.</p>
+        </div>
+    </footer>
     
 </body>
 </html>

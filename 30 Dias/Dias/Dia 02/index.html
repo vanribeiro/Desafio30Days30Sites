@@ -3,27 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="img/favicon/chat.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="https://i.postimg.cc/6qxrVM7V/chat.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Clara e Leonardo</title>
 </head>
 <body>
-    <div id="home" class="cover-page">
-        <img class="img-fluid banner-desktop" src="img/wallpaper/home-cover-desktop.png" alt="Casamento Clara e Leonardo">
-        <div class="container">
-            <img class="img-fluid banner-mobile" src="img/wallpaper/home-cover-mobile.png" alt="Casamento Clara e Leonardo">
-        </div>
-        <nav>
-            <a class="nav-link" href="#the-couple">O Casal</a>
+    <div class="top-nav" id="menu-top-nav">
+        <div id="all-nav-links">
+            <a class="nav-link" href="#the-couple">Sobre o Casal</a>
             <a class="nav-link" href="#details">Detalhes do Casamento</a>
             <a class="nav-link" href="#gift-list">Lista de Presentes</a>
-            <a class="nav-link" href="#rsvp">RSVP</a>
-        </nav>
+            <a class="nav-link" href="#rsvp">Confirme sua Presença</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="rwdMenu()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <div class="desktop-menu">
+        <a class="nav-link" href="#the-couple">Sobre o Casal</a>
+        <a class="nav-link" href="#details">Detalhes do Casamento</a>
+        <a class="nav-link" href="#gift-list">Lista de Presentes</a>
+        <a class="nav-link" href="#rsvp">Confirme sua Presença</a>
+    </div>
+    <div id="home" class="cover-page">
+        <img class="img-fluid banner-desktop" src="https://i.postimg.cc/W1yJ65CD/home-cover-desktop.png" alt="Casamento Clara e Leonardo">
+        <div class="container">
+            <img class="img-fluid banner-mobile" src="https://i.postimg.cc/Dw0XX9jk/home-cover-mobile.png" alt="Casamento Clara e Leonardo">
+        </div>
     </div>
     <div id="the-couple" class="couple">
         <div class="container">
-            <img class="img-banner-title img-couple-banner" src="img/banners-title/clara-e-leonardo.png" alt="Clara e Leonardo">
+            <img class="img-banner-title img-couple-banner" src="https://i.postimg.cc/sfGHpLLW/clara-e-leonardo.png" alt="Clara e Leonardo">
             <div class="columns-couple">
                 <div class="her">
                     <div class="text-bio">
@@ -34,16 +46,16 @@
                         </p>
                     </div>
                     <div class="clara">
-                        <img class="img-fluid" src="img/couple/Clara.jpeg" alt="Nome da Noiva: Clara" title="Clara">
+                        <img class="img-fluid" src="https://i.postimg.cc/9fzYcR59/Clara.jpg" alt="Nome da Noiva: Clara" title="Clara">
                     </div>
                 </div>
                 <div class="ring-menu">
                     <a href="#home">
-                        <img class="arrows" src="img/arrows/top.png" alt="Inicio">
+                        <img class="arrows" src="https://i.postimg.cc/hvN0YK3m/top.png" alt="Inicio">
                     </a>
                     <img class="img-fluid ring" src="img/icons/ring.png" alt="Aliança">
                     <a href="#details">
-                        <img class="arrows" src="img/arrows/details-down.png" alt="Detalhes do Casamento">
+                        <img class="arrows" src="https://i.postimg.cc/X7T2HkTP/details-down.png" alt="Detalhes do Casamento">
                     </a>
                 </div>
                 <div class="his">
@@ -55,7 +67,7 @@
                         </p>
                     </div>
                     <div class="leo">
-                        <img class="img-fluid" src="img/couple/Leo.jpeg" alt="Nome do Noivo: Leonardo" title="Leonardo">
+                        <img class="img-fluid" src="https://i.postimg.cc/1zTcXmsj/Leo.jpg" alt="Nome do Noivo: Leonardo" title="Leonardo">
                     </div>
                 </div>
             </div>
@@ -65,15 +77,15 @@
     <div id="details" class="details-wedding">
         <div class="container">
             <h1 class="title-couple">Detalhes do Casamento</h1>
-            <img class="img-banner-title" src="img/banners-title/detalhes-do-casamento.png" alt="Detalhes do Casamento">
+            <img class="img-banner-title" src="https://i.postimg.cc/yYqQnPqb/detalhes-do-casamento.png" alt="Detalhes do Casamento">
             <div class="columns-couple">
                 <div class="more-details">
-                    <h3><img class="icon-more-details" src="img/icons/icon.png" alt="Mais detalhes do Casamento"> Mais Detalhes</h3>
+                    <h3><img class="icon-more-details" src="https://i.postimg.cc/c4Z7r5G0/icon.png" alt="Mais detalhes do Casamento"> Mais Detalhes</h3>
                     <p> 25 de junho de 2019</p>
                     <h4>Cerimônia e Recepção</h4>
                     <a href="#">
                         <figure class="title-on-image-details">
-                            <img class="img-fluid buffet-img" src="img/others-imgs/Buffet Elegancy.jpeg" alt="Nome do Buffet: Buffet Elegancy">
+                            <img class="img-fluid buffet-img" src="https://i.postimg.cc/J08XHtgP/Buffet-Elegancy.jpg" alt="Nome do Buffet: Buffet Elegancy">
                             <figcaption class="bold"><h1>Buffet Elegancy</h1></figcaption>
                         </figure>
                     </a>
@@ -81,15 +93,15 @@
                 </div>
                 <div class="ring-menu">
                     <a href="#the-couple">
-                        <img class="arrows" src="img/arrows/the-couple-top.png" alt="O Casal">
+                        <img class="arrows" src="https://i.postimg.cc/BbjgNjNs/the-couple-top.png" alt="O Casal">
                     </a>
-                    <img class="img-fluid ring" src="img/icons/ring.png" alt="Aliança">
+                    <img class="img-fluid ring" src="https://i.postimg.cc/wxDcxYPw/ring.png" alt="Aliança">
                     <a href="#gift-list">
-                        <img class="arrows" src="img/arrows/gift-list-down.png" alt="Lista de Presente">
+                        <img class="arrows" src="https://i.postimg.cc/X7T2HkTP/details-down.png" alt="Lista de Presente">
                     </a>
                 </div>
                 <div class="local">
-                    <h3><img class="icon-flag-local" src="img/icons/flag-local.png" alt="Como chegar no Casamento. Mapa Google Maps">Como chegar</h3>
+                    <h3><img class="icon-flag-local" src="https://i.postimg.cc/wM5hwDJC/flag-local.png" alt="Como chegar no Casamento. Mapa Google Maps">Como chegar</h3>
                     <div class="google-maps">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.8371826672414!2d-45.56011698539732!3d-23.029749648059234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ccf904aab3fb6d%3A0x9f3afd98e8e6bf70!2sR.+Dr.+Pedro+Costa+-+Centro%2C+Taubat%C3%A9+-+SP%2C+12010-160!5e0!3m2!1spt-PT!2sbr!4v1543758529325" width="380" height="380" frameborder="" style="border:5px #ffffff solid; box-shadow: 7px 7px 20px #333;" allowfullscreen></iframe>
                     </div>
@@ -105,29 +117,29 @@
     <div id="gift-list" class="gifts">
         <div class="container">
             <h1 class="title-couple">Lista de Presentes</h1>
-            <img class="img-banner-title" src="img/banners-title/lista-de-presente.png" alt="Lista de Presentes">
+            <img class="img-banner-title" src="https://i.postimg.cc/GtDMdBDK/lista-de-presente.png" alt="Lista de Presentes">
             <div class="columns-couple">
                 <div class="shop1">
                     <a href="#">
                         <figure class="title-on-image-gift">
-                            <img class="img-fluid" src="img/others-imgs/móveis.jpeg" alt="Lista para Móveis" title="Lista para Móveis">
+                            <img class="img-fluid" src="https://i.postimg.cc/50Lvt8PX/m-veis.jpg" alt="Lista para Móveis" title="Lista para Móveis">
                             <figcaption><h1>Móveis</h1></figcaption>
                         </figure>
                     </a>
                 </div>
                 <div class="ring-menu">
                     <a href="#details">
-                        <img class="arrows" src="img/arrows/details-top.png" alt="Detalhes dos Casamento">
+                        <img class="arrows" src="https://i.postimg.cc/13wvLNS3/details-top.png" alt="Detalhes dos Casamento">
                     </a>
-                    <img class="img-fluid ring" src="img/icons/ring.png" alt="Aliança">
+                    <img class="img-fluid ring" src="https://i.postimg.cc/wxDcxYPw/ring.png" alt="Aliança">
                     <a href="#rsvp">
-                        <img class="arrows" src="img/arrows/rsvp-down.png" alt="RSVP">
+                        <img class="arrows" src="https://i.postimg.cc/G27KkFFq/rsvp-top.png" alt="RSVP">
                     </a>
                 </div>
                 <div class="shop2">
                     <a href="#">
                         <figure class="title-on-image-gift">
-                            <img class="img-fluid" src="img/others-imgs/eletrônicos.jpeg" alt="Lista para Eletrônicos" title="Lista para Eletrônicos">
+                            <img class="img-fluid" src="https://i.postimg.cc/Jh9ZmpQw/eletr-nicos.jpg" alt="Lista para Eletrônicos" title="Lista para Eletrônicos">
                             <figcaption><h1>Eletrônicos</h1></figcaption>
                         </figure>
                     </a>
@@ -138,13 +150,10 @@
 
     <div id="rsvp" class="form-rsvp">
         <div class="container">
-            <h1 class="title-couple">
-                RSVP
-                <small>Confirme sua presença!</small>
-            </h1>
-            <img class="img-banner-title" src="img/banners-title/rsvp.png" alt="RSVP">
+            <h1 class="title-couple">Confirme sua presença!</h1>
+            <img class="img-banner-title" src="https://i.postimg.cc/mDJdv3Ph/rsvp.png" alt="Confirme sua presença">
             <form class="form-agreement">
-                <h3>Confirme sua presença:</h3>
+                <h5>* preenchimento obrigatório!</h5>
                 <div class="form-couple">
                     <label class="bold" for="nome">Nome:* </label>
                     <input class="input-text" id="nome" type="text" placeholder="Digite seu nome...">
@@ -184,10 +193,10 @@
                 </div>
                 <div class="links-bottom">
                     <a href="#gift-list">
-                        <img src="img/arrows/details-top.png" alt="Voltar aos detalhes do casamento">
+                        <img src="https://i.postimg.cc/pdBqdbpN/gift-list-top.png" alt="Voltar a lista de presentes.">
                     </a>
                     <a href="#home">
-                        <img src="img/arrows/top.png" alt="Voltar ao Topo">
+                        <img src="https://i.postimg.cc/hvN0YK3m/top.png" alt="Voltar ao Topo">
                     </a>
                 </div>
             </form>
@@ -199,6 +208,6 @@
             <p>© Copyright 2018. Todos os direitos reservado.</p>
         </div>
     </footer>
-    
+    <script src="js/app.js"></script>
 </body>
 </html>

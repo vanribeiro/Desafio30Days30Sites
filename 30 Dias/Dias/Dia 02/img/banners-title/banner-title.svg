@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
-     inkscape:cx="341.88534"
-     inkscape:cy="447.17681"
+     inkscape:zoom="0.8"
+     inkscape:cx="526.69872"
+     inkscape:cy="578.54167"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -161,7 +161,7 @@
          y="168.97282"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:monospace;-inkscape-font-specification:'monospace Bold';fill:#ffd5d5;stroke-width:0.36321563">Lista de Presentes</tspan></text>
     <g
-       id="g881"
+       id="g845"
        inkscape:export-xdpi="71"
        inkscape:export-ydpi="71">
       <path
@@ -188,14 +188,14 @@
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.5286274px;line-height:1.25;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:0px;word-spacing:0px;fill:#ffd5d5;fill-opacity:1;stroke:none;stroke-width:0.36321563"
-         x="113.882"
-         y="219.06662"
+         x="39.731373"
+         y="218.06281"
          id="text868"><tspan
            sodipodi:role="line"
            id="tspan866"
-           x="113.882"
-           y="219.06662"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:monospace;-inkscape-font-specification:'monospace Bold';fill:#ffd5d5;stroke-width:0.36321563">RSVP</tspan></text>
+           x="39.731373"
+           y="218.06281"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:monospace;-inkscape-font-specification:'monospace Bold';fill:#ffd5d5;stroke-width:0.36321563">Confirme sua Presença</tspan></text>
     </g>
   </g>
 </svg>

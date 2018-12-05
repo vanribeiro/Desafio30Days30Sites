@@ -21,40 +21,7 @@
    inkscape:export-xdpi="107.17539"
    inkscape:export-ydpi="107.17539">
   <defs
-     id="defs2">
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient1064">
-      <stop
-         style="stop-color:#483e37;stop-opacity:1;"
-         offset="0"
-         id="stop1060" />
-      <stop
-         style="stop-color:#483e37;stop-opacity:0;"
-         offset="1"
-         id="stop1062" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient1064"
-       id="linearGradient1108"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.0829837,0,0,0.03492067,29.855591,303.68257)"
-       x1="187.56032"
-       y1="-58.208328"
-       x2="234.65616"
-       y2="-58.208328" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient1064"
-       id="linearGradient1346"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.0829837,0,0,0.03492067,29.855591,303.68257)"
-       x1="187.56032"
-       y1="-58.208328"
-       x2="234.65616"
-       y2="-58.208328" />
-  </defs>
+     id="defs2" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -63,8 +30,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.5"
-     inkscape:cx="587.31394"
-     inkscape:cy="517.12339"
+     inkscape:cx="460.21739"
+     inkscape:cy="330.04947"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -95,9 +62,12 @@
      id="layer1"
      transform="translate(0,-106.5)">
     <g
-       id="g1381">
+       id="g906"
+       inkscape:export-xdpi="86.827385"
+       inkscape:export-ydpi="86.827385"
+       transform="matrix(0.90662052,0,0,0.90662052,4.5662636,26.745274)">
       <g
-         transform="matrix(0.69195311,0,0,0.7059035,43.030491,60.981921)"
+         transform="matrix(1.3727192,0,0,1.3027775,-62.547769,-105.64133)"
          id="g1039">
         <g
            id="g907"
@@ -234,58 +204,40 @@
         </g>
       </g>
       <g
-         transform="matrix(0.68048959,0.03297408,-0.03297408,0.68048959,50.392322,52.905822)"
-         id="g1268">
-        <rect
-           transform="matrix(-0.03555124,0.99936786,0.99936785,0.03555124,0,0)"
-           y="298.73947"
-           x="121.80306"
-           height="5.820838"
-           width="162.1813"
-           id="rect1104"
-           style="opacity:1;fill:url(#linearGradient1108);fill-opacity:1;stroke:none;stroke-width:2.1809926;stroke-miterlimit:5.19999981;stroke-dasharray:4.36198499, 4.36198499;stroke-dashoffset:0;stroke-opacity:1" />
-        <ellipse
-           ry="4.4979172"
-           rx="3.0521579"
-           cy="128.88374"
-           cx="297.16296"
-           id="ellipse1114"
-           style="opacity:1;fill:#483e37;fill-opacity:1;stroke:none;stroke-width:0.94737303;stroke-miterlimit:5.19999981;stroke-dasharray:1.89474608, 1.89474608;stroke-dashoffset:0;stroke-opacity:1" />
+         transform="matrix(1.6149401,0,0,1.5127092,-48.871209,-130.03753)"
+         id="g4811">
+        <g
+           id="g4803"
+           transform="matrix(0.84967023,0,0,0.84967023,20.364672,41.38614)">
+          <path
+             id="rect909"
+             d="m 47.285483,240.10197 v 1.04262 l 8.547563,8.39476 9.249451,8.16521 -9.249451,8.1646 -8.547563,8.39477 v 1.03843 H 223.64784 v -0.82919 l -8.7565,-8.59982 -9.24946,-8.1652 9.24946,-8.1652 8.7565,-8.59983 v -0.84115 z"
+             style="opacity:1;fill:#581d22;fill-opacity:1;stroke:none;stroke-width:0.7094332;stroke-miterlimit:4;stroke-dasharray:2.12829966, 2.12829966;stroke-dashoffset:4.04220438;stroke-opacity:1"
+             inkscape:connector-curvature="0" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path911"
+             d="m 68.746961,244.89983 c 133.439409,0 133.439409,0 133.439409,0"
+             style="fill:#000000;stroke:#ffd5d5;stroke-width:0.76465976;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3.05863914, 3.05863914;stroke-dashoffset:0.15247822;stroke-opacity:1" />
+          <path
+             style="fill:#000000;stroke:#ffd5d5;stroke-width:0.76465976;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3.05863914, 3.05863914;stroke-dashoffset:0.15247822;stroke-opacity:1"
+             d="m 68.746961,270.83917 c 133.439409,0 133.439409,0 133.439409,0"
+             id="path924"
+             inkscape:connector-curvature="0" />
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.53016853px;line-height:1.25;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:0px;word-spacing:0px;fill:#ffd5d5;fill-opacity:1;stroke:none;stroke-width:0.28825423"
+           x="91.533875"
+           y="269.78149"
+           id="text896"
+           transform="scale(1.0224829,0.97801147)"><tspan
+             sodipodi:role="line"
+             id="tspan894"
+             x="91.533875"
+             y="269.78149"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';fill:#ffd5d5;stroke-width:0.28825423">nós vamos casar!</tspan></text>
       </g>
-      <g
-         id="g1344"
-         transform="matrix(-0.68048959,0.03297408,0.03297408,0.68048959,280.37255,52.905822)">
-        <rect
-           style="opacity:1;fill:url(#linearGradient1346);fill-opacity:1;stroke:none;stroke-width:2.1809926;stroke-miterlimit:5.19999981;stroke-dasharray:4.36198499, 4.36198499;stroke-dashoffset:0;stroke-opacity:1"
-           id="rect1340"
-           width="162.1813"
-           height="5.820838"
-           x="121.80306"
-           y="298.73947"
-           transform="matrix(-0.03555124,0.99936786,0.99936785,0.03555124,0,0)" />
-        <ellipse
-           style="opacity:1;fill:#483e37;fill-opacity:1;stroke:none;stroke-width:0.94737303;stroke-miterlimit:5.19999981;stroke-dasharray:1.89474608, 1.89474608;stroke-dashoffset:0;stroke-opacity:1"
-           id="ellipse1342"
-           cx="297.16296"
-           cy="128.88374"
-           rx="3.0521579"
-           ry="4.4979172" />
-      </g>
-      <path
-         sodipodi:nodetypes="ccccc"
-         inkscape:connector-curvature="0"
-         id="rect1055"
-         d="m 80.570965,153.0006 c 12.957603,10.52252 170.020065,6.5845 169.622945,0 2.19182,-1.73571 -0.98389,15.36359 -1.30153,19.8365 -67.32678,10.41737 -120.23622,8.38084 -167.513436,0 -0.889746,-7.0577 -1.058998,-9.59944 -0.807979,-19.8365 z"
-         style="opacity:1;fill:#00aa88;fill-opacity:1;stroke:none;stroke-width:1.36820912;stroke-miterlimit:5.19999981;stroke-dasharray:2.73641821, 2.73641821;stroke-dashoffset:0;stroke-opacity:1" />
-      <text
-         transform="scale(0.95577038,1.0462764)"
-         x="120.43397"
-         y="166.45911"
-         id="text1136"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.66155243px;line-height:1.25;font-family:Impact;-inkscape-font-specification:Impact;letter-spacing:0px;word-spacing:0px;fill:#d5fff6;fill-opacity:1;stroke:none;stroke-width:0.4165388"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';fill:#d5fff6;stroke-width:0.4165388"
-           id="tspan1134">vem pra festa!</tspan></text>
     </g>
   </g>
 </svg>

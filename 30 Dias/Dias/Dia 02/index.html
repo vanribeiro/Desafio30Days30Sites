@@ -10,24 +10,18 @@
     <title>Clara e Leonardo</title>
 </head>
 <body>
-    <div class="top-nav" id="menu-top-nav">
-        <div id="all-nav-links">
-            <a class="nav-link" href="#the-couple">Sobre o Casal</a>
-            <a class="nav-link" href="#details">Detalhes do Casamento</a>
-            <a class="nav-link" href="#gift-list">Lista de Presentes</a>
-            <a class="nav-link" href="#rsvp">Confirme sua Presença</a>
-        </div>
-        <a href="javascript:void(0);" class="icon" onclick="rwdMenu()">
-            <i class="fa fa-bars"></i>
-        </a>
-    </div>
-    <div class="desktop-menu">
-        <a class="nav-link" href="#the-couple">Sobre o Casal</a>
-        <a class="nav-link" href="#details">Detalhes do Casamento</a>
-        <a class="nav-link" href="#gift-list">Lista de Presentes</a>
-        <a class="nav-link" href="#rsvp">Confirme sua Presença</a>
-    </div>
-    <div id="home" class="cover-page">
+    <input type="checkbox" id="menu-hamburger">
+    <label for="menu-hamburger" class="menu-hamburger">&#9776;</label>
+    <nav id="home">
+        <ul>
+            <li><a href="#the-couple">O Casal</a></li>
+            <li><a href="#details">Detalhes do Casamento</a></li>
+            <li><a href="#gift-list">Lista de Presente</a></li>
+            <li><a href="#rsvp">Confirme sua Presença!</a></li>
+        </ul>
+    </nav>
+    
+    <div class="cover-page">
         <img class="img-fluid banner-desktop" src="https://i.postimg.cc/W1yJ65CD/home-cover-desktop.png" alt="Casamento Clara e Leonardo">
         <div class="container">
             <img class="img-fluid banner-mobile" src="https://i.postimg.cc/Dw0XX9jk/home-cover-mobile.png" alt="Casamento Clara e Leonardo">
@@ -71,6 +65,14 @@
                     </div>
                 </div>
             </div>
+            <div class="links-bottom-mobile">
+                <a href="#home">
+                    <img class="arrows" src="https://i.postimg.cc/hvN0YK3m/top.png" alt="Inicio">
+                </a>
+                <a href="#details">
+                    <img class="arrows" src="https://i.postimg.cc/X7T2HkTP/details-down.png" alt="Detalhes do Casamento">
+                </a>
+            </div>
         </div>
     </div>
 
@@ -108,9 +110,16 @@
                     <class class="g-maps">
                         <a href="https://goo.gl/maps/3b3jaRTM4MH2" target="_blank" rel="noopener noreferrer">Localização no Google Maps</a>
                     </class>
-                    
                 </div>
             </div>
+        </div>
+        <div class="links-bottom-mobile">
+            <a href="#the-couple">
+                <img class="arrows" src="https://i.postimg.cc/BbjgNjNs/the-couple-top.png" alt="O Casal">
+            </a>
+            <a href="#gift-list">
+                <img class="arrows" src="https://i.postimg.cc/X7T2HkTP/details-down.png" alt="Lista de Presente">
+            </a>
         </div>
     </div>
 
@@ -145,6 +154,14 @@
                     </a>
                 </div>
             </div>
+        </div>
+        <div class="links-bottom-mobile">
+            <a href="#details">
+                <img class="arrows" src="https://i.postimg.cc/13wvLNS3/details-top.png" alt="Detalhes dos Casamento">
+            </a>
+            <a href="#rsvp">
+                <img class="arrows" src="https://i.postimg.cc/4x5zwWJs/Confirme-sua-presenca.png" alt="Confirme sua presença!">
+            </a>
         </div>
     </div>
 
@@ -208,6 +225,5 @@
             <p>© Copyright 2018. Todos os direitos reservado.</p>
         </div>
     </footer>
-    <script src="js/app.js"></script>
 </body>
 </html>

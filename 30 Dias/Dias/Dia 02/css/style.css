@@ -15,18 +15,6 @@ a{
     text-decoration: none;
 }
 
-.top-nav{
-    width: 100%;
-    background-color: #581D22;
-    height: 50px;
-    text-align: center;
-}
-
-.top-nav a{
-    color: #ffd5d5;
-    padding: 10px;
-}
-
 .img-fluid{
     max-width: 100%;
 }
@@ -115,16 +103,16 @@ a{
     border:  #581D22 1px solid;
 }
 
-.links-bottom{
+.links-bottom, .links-bottom-mobile{
     text-align: center;
     padding: 15px;
 }
 
-.links-bottom a{
+.links-bottom a, .links-bottom-mobile a{
     padding: 15px 10px 10px 10px;
 }
 
-.links-bottom a:hover{
+.links-bottom a:hover, .links-bottom-mobile a:hover{
     border-bottom: #581D22 2px dashed;
 }
 
@@ -142,41 +130,83 @@ footer .copyright{
     padding: 15px;
 }
 
-@media (min-width: 180px){
-
-    .desktop-menu{
-        display: none;
-    }
-
+nav{
+    cursor: pointer;
+    width: 100%;
+    background-color: #581d22;
+    height: 30px;
+    padding: 10px;
+    padding-bottom: 20px;
+    text-align: center;
 }
 
-@media (min-width: 320px){
+nav ul{
+    margin: 0;
+    padding: 0;
+}
 
-    .desktop-menu{
+nav ul li{
+    list-style-type: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: #581d22 2px solid;
+}
+
+nav ul li a{
+    color: #ffd5d5;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li:hover{
+    border: #ffd5d5 2px dashed;
+}
+
+#menu-hamburger, .menu-hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+@media (max-width: 830px){
+    nav{
         display: none;
     }
 
-    .top-nav{
-        position: fixed;
-    }
-
-    .top-nav #all-nav-links{
-        background-color: #581D22;
-        display: inline-block;
-        height: 200px;
-    }
-
-    .top-nav a{
+    #menu-hamburger:checked ~ nav{
         display: block;
-        padding: 10px;
-        height: 20px;
     }
 
-    .top-nav a.icon{
-        position: absolute;
-        right:0;
-        top: 0;
+    .menu-hamburger{
+        display: block;
+        color: #ffd5d5;
+        font-size: 2.3em;
+        width: 100%;
+        text-align: right;
+        background-color: #581d22;
     }
+
+    nav ul{
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li{
+        display: block;
+        background-color: #581d22;
+        height: 30px;
+        padding: 10px;
+    }
+
+    nav ul li a{
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+@media (min-width: 320px){
 
     .cover-page, .couple, .details-wedding, .gifts{
         width: 100%;
@@ -192,13 +222,17 @@ footer .copyright{
         display: none;
     }
 
+    .g-maps{
+        display: block;
+    }
+
     .cover-page, .couple, .details-wedding, .gifts, .form-rsvp{
         text-align: center;
     }
 
     .title-on-image-gift figcaption{
-        width: 240px;
-        height: 240px;
+        width: 220px;
+        height: 220px;
     }
 
     .title-on-image-details figcaption{
@@ -210,28 +244,6 @@ footer .copyright{
 
 @media (min-width: 576px) {
 
-    .desktop-menu{
-        display: none;
-    }
-
-    .top-nav #all-nav-links{
-        background-color: #581D22;
-        display: inline-block;
-        height: 200px;
-    }
-
-    .top-nav a{
-        display: block;
-        padding: 10px;
-        height: 20px;
-    }
-
-    .top-nav a.icon{
-        position: absolute;
-        right:0;
-        top: 0;
-    }
-
     .cover-page, .couple, .details-wedding, .gifts{
         width: 100%;
     }
@@ -242,7 +254,7 @@ footer .copyright{
         padding-top: 50px;
     }
 
-    .banner-desktop, .hover-the-mouse, .g-maps, .ring-menu, .img-banner-title{
+    .banner-desktop, .hover-the-mouse, .ring-menu, .img-banner-title{
         display: none;
     }
 
@@ -265,32 +277,6 @@ footer .copyright{
 
 @media (min-width: 768px){
 
-    .desktop-menu{
-        display: none;
-    }
-
-    .top-nav{
-        position: fixed;
-    }
-
-    .top-nav #all-nav-links{
-        background-color: #581D22;
-        display: inline-block;
-        height: 200px;
-    }
-
-    .top-nav a{
-        display: block;
-        padding: 10px;
-        height: 20px;
-    }
-
-    .top-nav a.icon{
-        position: absolute;
-        right:0;
-        top: 0;
-    }
-
     .cover-page, .couple, .details-wedding, .gifts{
         width: 100%;
     }
@@ -301,7 +287,7 @@ footer .copyright{
         padding-top: 50px;
     }
 
-    .banner-desktop, .hover-the-mouse, .ring-menu, .title-couple{
+    .banner-desktop, .hover-the-mouse, .ring-menu, .title-couple, .g-maps{
         display: none;
     }
 
@@ -309,7 +295,7 @@ footer .copyright{
         text-align: center;
     }
 
-    .img-banner-title{
+    .img-banner-title, .google-maps{
         display: block;
     }
 
@@ -327,27 +313,12 @@ footer .copyright{
 
 @media (min-width: 992px){
 
-    .top-nav{
-        display: none;
+    .cover-page{
+        width: 100vw;
+        height: 100vh;
     }
 
-    .desktop-menu{
-        position: fixed;
-        background-color: #581D22;
-        width: 100%;
-        height: 50px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        z-index: 1;
-    }
-
-    .desktop-menu a{
-        color: #ffd5d5;
-        padding: 10px;
-    }
-
-    .cover-page, .couple, .details-wedding, .gifts{
+    .couple, .details-wedding, .gifts{
         width: 100%;
         text-align: center;
     }
@@ -366,7 +337,7 @@ footer .copyright{
         display: none;
     }
 
-    .img-banner-title, .banner-desktop, .google-maps{
+    .img-banner-title, .banner-desktop{
         display: block;
     }
 
@@ -398,6 +369,11 @@ footer .copyright{
 }
 
 @media (min-width: 1200px){
+
+    .cover-page{
+        width: 100vw;
+        height: 100vh;
+    }
 
     .ring-menu{
         display: block;
@@ -524,6 +500,10 @@ footer .copyright{
 
     footer p{
         line-height: 1px;
+    }
+
+    .links-bottom-mobile{
+        display: none;
     }
 
 }

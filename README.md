@@ -8,4 +8,4 @@ Decidi aprender um pouco mais sobre desenvolvimento Front-End. Então, entrei no
 
 **26/11/2018** - Dia 01: [Portfólio](https://codepen.io/vanribeiro/pen/VVqYNV) - ✅
 
-**05/12/2018** - Dia 02: [Convite de Casamento](https://codepen.io/vanribeiro/pen/bQyoRO) - ✅ (Estou tendo problemas com o menu responsivo, mas está funcionando.)
+**05/12/2018** - Dia 02: [Convite de Casamento](https://codepen.io/vanribeiro/pen/bQyoRO) - ✅

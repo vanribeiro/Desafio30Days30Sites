@@ -135,7 +135,7 @@ nav{
     width: 100%;
     background-color: #581d22;
     height: 30px;
-    padding: 10px;
+    padding-top: 10px;
     padding-bottom: 20px;
     text-align: center;
 }
@@ -313,12 +313,7 @@ nav ul li:hover{
 
 @media (min-width: 992px){
 
-    .cover-page{
-        width: 100vw;
-        height: 100vh;
-    }
-
-    .couple, .details-wedding, .gifts{
+    .cover-page, couple, .details-wedding, .gifts{
         width: 100%;
         text-align: center;
     }
@@ -369,11 +364,6 @@ nav ul li:hover{
 }
 
 @media (min-width: 1200px){
-
-    .cover-page{
-        width: 100vw;
-        height: 100vh;
-    }
 
     .ring-menu{
         display: block;

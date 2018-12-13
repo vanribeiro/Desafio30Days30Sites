@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC');
+
+/*Menu Responsivo*/
+@media(min-width:320px){
+
+  nav{
+    margin-bottom: 100px;
+  }
+
+  .navbar-desktop{
+    display: none;
+  }
+
+  .sidebar-menu{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top:0;
+    right: 0;
+    z-index: 2;
+    background-color: #f09546;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+  }
+
+  .sidebar-menu a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    color: #7f3305;
+    font-size: 25px;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Alegreya Sans SC', sans-serif;
+  }
+
+  .sidebar-menu a:hover{
+    text-decoration: underline;
+  }
+
+  .sidebar-menu .close-button{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 45px;
+    margin-left: 50px;
+  }
+
+  .top-nav{
+    position: fixed;
+    background: #F09546;
+    width: 100%;
+    height: 61px;
+    z-index: 1;
+  }
+
+  .top-nav .open-button{
+    font-size: 30px;
+    cursor: pointer;
+    background: #F09546;
+    color: #7f3305;
+    border: none;
+    padding: 10px 15px;
+    float: right;
+  }
+
+  .open-button:hover {
+    color: #F09546;
+    background-color: #7f3305;
+  }
+
+}

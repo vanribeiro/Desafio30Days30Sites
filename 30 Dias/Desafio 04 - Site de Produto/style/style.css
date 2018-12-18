@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url("https://i.postimg.cc/rsSMbBVy/bg-body.png");
+    background-repeat: repeat;
+    padding: 0;
+    margin: 0;
+    font-family: 'Sue Ellen Francisco', cursive;
+    color: #505050;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+}
+
+a{
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #505050;
+}
+
+.topo{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.topo-button{
+    padding: 2px 15px 2px 15px; 
+    background-color: #505050;
+    color: #f2f2f2;
+}
+
+.topo-button:hover{
+    background-color: #f2f2f2;
+    color: #505050;
+    border: #505050 2px solid;
+}
+
+.img-fluid{
+    max-width: 100%;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.title-page{
+    font-size: 4em;
+    margin: 0;
+}
+
+.menu{
+    border: #505050 2px solid;
+}
+
+.menu ul li:hover{
+    text-decoration: underline;
+}
+
+.all-notebooks figure{
+    border: #505050 2px solid;
+}
+
+.all-notebooks figure img{
+    padding: 15px 0px 15px 0px;;
+}
+
+.notebooks, .about-us, .contact{
+    width: 100%;
+    clear: both;
+}
+
+form{
+    font-size: 1.5em;
+}   
+
+form button{
+    font-size: 1.3em;
+    background-color: #505050;
+    border: none;
+    padding: 5px 15px 5px 15px;
+    margin-right: 5px;
+    color: #f2f2f2;
+    font-family: 'Sue Ellen Francisco', cursive;
+}
+
+.form-group{
+    width: 100%;
+}
+
+.form-group label{
+    width: 10%;
+}
+
+.form-group input{
+    background-color: #f2f2f200;
+    border: none;
+    border: #505050d7 2px solid;
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 1.5em;
+}
+
+.form-group input[type=text]:hover{
+    background-color: #505050;
+    color: #f2f2f2;
+}
+
+.form-group textarea{
+    width: 100%;
+    background: #f2f2f200;
+    border: #505050d7 2px solid;
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 1.3em;
+}
+
+form{
+    padding-bottom: 15px;
+}
+
+footer{
+    width: 100%;
+    border-top: #505050 2px solid;
+}
+
+footer p{
+    text-align: center;
+}
+
+@media (min-width: 320px){
+
+    .form-buttons{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .form-group input, .form-group label{
+        width: 100%;
+    }
+
+    .form-group input{
+        color: #505050;
+        height: 40px;
+        margin-bottom: -12px;
+    }
+
+    .menu ul li:hover{
+        margin-top: -25px;
+        margin-bottom: -25px;
+    }
+
+    .menu ul li{
+        margin-top: -25px;
+        margin-bottom: -25px;
+        height: 50px;
+    }
+
+    ul.list li{
+        font-size: 1.5em;
+        margin-top: -20px;
+        margin-bottom: -20px;
+        list-style: disc;
+    }
+
+    h2{
+        font-size: 3em;
+        margin: 15px 0px 0px 0px;
+        padding: 0;
+    }
+
+    p{
+        margin: -10px;
+        font-size: 1.5em;
+    }
+
+}
+
+@media (min-width: 578px){
+    
+    .menu ul{
+        text-align: center;
+    }
+
+    .menu ul li{
+        font-size: 1em;
+        margin-left: 15px;
+        margin-right: 15px;
+        display: inline-block;
+        list-style: none;
+    }
+
+}
+
+@media (min-width: 768px){
+
+    .menu ul li{
+        font-size: 2em;
+    }
+
+    .row{
+        width: 100%;
+    }
+
+    .row figure{
+        width: 50%;
+    }
+
+    .notebook-list{
+        width: 25%;
+        float: left;
+    }
+
+    .all-notebooks{
+        width: 75%;
+        float: right;
+    }
+
+    .all-notebooks .row{
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    p{
+        font-size: 2em;
+    }
+    
+}
+
+@media (min-width: 992px){
+
+    .menu ul li{
+        font-size: 2em;
+    }
+    
+}
+
+@media (min-width: 1200px){
+
+    .form-buttons{
+        text-align: right;
+    }
+
+}

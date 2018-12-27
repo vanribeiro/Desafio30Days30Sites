@@ -6,14 +6,6 @@ Decidi aprender um pouco mais sobre desenvolvimento Front-End. Então, entrei no
 
 **Obs.:** os links desse tópico apontam para o repositório respectivo no CodePen.
 
-**26/11/2018** - Desafio 01: [Portfólio](https://codepen.io/vanribeiro/pen/VVqYNV) - ✅
-
-**05/12/2018** - Desafio 02: [Convite de Casamento](https://codepen.io/vanribeiro/pen/bQyoRO) - ✅
-
-**13/12/2018** - Desafio 03: [Atração Turística](https://codepen.io/vanribeiro/pen/GPpGWP) - ✅
-
-**18/12/2018** - Desafio 04: [Site de Produto](https://codepen.io/vanribeiro/pen/BvLQyd) - ✅
-
   Data      |Nº |Desafio                                                         |Status 
 :----------:|:-:|----------------------------------------------------------------|:------:
 26/11/2018  |01 |[Portfólio](https://codepen.io/vanribeiro/pen/VVqYNV)           |✅
